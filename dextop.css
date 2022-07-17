@@ -1,0 +1,181 @@
+*{box-sizing: border-box;}
+
+.col-1{width:8.33%;}
+.col-2{width:16.66%;}
+.col-3{width:25%;}
+.col-4{width:33.33%;}
+.col-5{width:41.66%;}
+.col-6{width:50%;}
+.col-7{width:58.33%;}
+.col-8{width:66.66%;}
+.col-9{width:75%;}
+.col-10{width:83.33%;}
+.col-11{width:91.66%;}
+.col-12{width:100%;}
+
+
+/*header start here*/
+[class*="col-"]{
+    float:left;
+}
+
+.header::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+
+.head-logo{
+    text-align: left;
+
+}
+
+.head-header{
+    text-align:right;
+}
+
+.head-menu{
+ flex-direction: row;
+ padding: 10px;
+ justify-content: flex-end;
+}
+
+.head-menu a{
+  margin:0 8px;
+}
+
+/*header-ended here*/
+
+
+
+/*profile start here*/
+
+.profile-desc p{
+    font-size: 1.2rem;
+    text-align: center;
+    width:90%;
+    margin: 10px auto 20px auto;
+    
+}
+
+
+.profile-desc h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top:70px;
+    font-family: 'Satisfy', cursive;
+}
+
+.profile .top-img{
+    position:absolute;
+    right: 50px;
+    margin-top:0px;
+    width: 150px;
+    height: 160;
+    transition:transform 2s;
+}
+
+
+.profile .bottom-img{
+    
+    width: 150px;
+    height: 140px;
+    
+    transition:transform 2s;
+}
+/*profile ended here*/
+
+
+
+/*footer start here */
+.footer-heading{
+    
+    
+}
+
+.footer-heading h1{
+
+}
+
+.footer-img{
+    width:50%;
+    height: 500px;
+    position: relative;
+
+}
+
+.footer-img img{
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    width:200px;
+    height:250px;
+    border-radius: 50%;
+    border:2px solid white;
+}
+
+.footer-desc{
+}
+
+.footer-desc p{
+    text-align: left;
+}
+
+.hori{
+    width:100%;
+}
+
+
+.hori{
+    border:none;
+    border-bottom:3px solid;
+    width:100%;
+    color:white;
+
+}
+
+[class*=col-]{
+    float:left;
+
+}
+
+.footer::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+/*footer ended here */
+
+
+
+/*work-exprience start here */
+
+[class*="col-"]{
+    float:left;
+
+}
+
+.exprience::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+/*work-exprience start here */
+
+.hmm{
+    display: none;
+}
+
+
+/*foooter start here*/
+.foooter-menu{
+    
+    
+    }
+    .foooter-menu a{
+
+        display: inline;
+        }
+
+/*foooter ended here*/

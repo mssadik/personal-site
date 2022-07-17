@@ -1,0 +1,760 @@
+*{
+    box-sizing: border-box;
+}
+
+
+body{
+    padding:0;
+    margin:0;
+}
+
+.header{
+    background-color: teal;
+    text-align: center;
+}
+
+.head-logo img{
+    width: 100px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.head-header h1{
+    
+}
+
+.head-menu{
+display: flex;
+flex-direction:column;
+text-transform: uppercase;
+padding: 20px;
+
+
+
+
+}
+
+.head-menu a{
+    text-decoration: none;
+    padding:10px;
+    color:white;
+    background-color:rgb(63, 210, 210) ;
+    border-radius: 10px;
+    padding:10 0px;
+    margin:8px 0;
+   
+    
+}
+
+
+.head-menu a:hover{
+    background-color: aquamarine;
+}
+
+
+
+[class*="col-"]{
+    width:100%;
+}
+
+/*profile start here*/
+.profile{
+    position: relative;
+    
+}
+
+.profile .top-img{
+    position:absolute;
+    right: 50px;
+    margin-top:0px;
+    width: 150px;
+    height: 160;
+    transition:transform 2s;
+}
+
+.profile .top-img:hover{
+    transform:rotate(360deg);
+}
+
+.profile .bottom-img{
+    margin-left:50px;
+    width: 150px;
+    height: 140px;
+    
+    transition:transform 2s;
+}
+
+.profile .bottom-img:hover{
+    transform:rotate(360deg);
+}
+
+.profile-desc h2{
+    font-size: 3rem;
+    text-align: center;
+    margin-top:150px;
+    font-family: 'Satisfy', cursive;
+}
+
+.profile-desc p{
+    font-family: 'Rubik Moonrocks', cursive;
+
+    font-size: 1.2rem;
+    text-align: center;
+    width:90%;
+    margin:0 auto 20px auto;
+    
+}
+
+.profile::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+/*profile ended here*/
+
+
+
+/*footer start here*/
+
+.footer{
+    position:relative;
+    background-color: rgb(234, 204, 165);
+}
+
+.footer-heading{
+
+}
+
+.footer-heading h1{
+    margin-top:50px;
+    text-align: center;
+}
+
+.dotted-hr{
+    text-align: center;
+    border:none;
+    border-bottom:dotted 6px white;
+    margin:10px auto;
+    width: 120px;
+
+    
+}
+.footer-img{
+
+}
+
+
+
+.footer-img img{
+    width:200px;
+    height: 250px;;
+    border-radius: 50%;
+    border:2px solid white;
+    display: block;
+    margin:0 auto;
+}
+
+.footer-desc>p{
+    text-align: center;
+    line-height:20px;
+    font-family:'Times New Roman', Times, serif;
+}
+
+.footer-desc p a{
+    text-decoration: none;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.hori{
+    border:none;
+    border-bottom:3px solid;
+    width:80%;
+    color:white;
+
+}
+
+
+
+.btn{
+    background-color: rgb(64, 52, 52);
+    color:white;
+    font-size: 1.3rem;
+    border-radius: 8px;
+    height:60px;
+    margin-bottom:10px;
+
+}
+
+.btn:hover{
+    background-color: black;
+}
+
+[class*="col-"]{
+    width:100%;
+}
+
+.footer::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+
+/*footer ended here*/
+
+
+
+
+/*Exprience start here*/
+
+ .all-exprience{
+    
+ }
+
+ .work-exprience{
+ 
+ }
+
+ .card1{
+     background-color: rgb(149, 133, 111);
+     border-radius: 5px;
+     padding:10px;
+     transition:.4s;
+     height:700px;
+     margin:10px;
+     padding:20px;
+    
+      
+ }
+
+ .card1:hover{
+     box-shadow: 0 4px 8px 5px black;
+ }
+
+  .card1 img{
+     display: flex;
+     margin:0 auto;
+     width:100px;
+     height:100px;
+     border: 5px solid white;
+     border-radius: 50%;
+ }
+
+ .card-title1 {
+      background-color: rgb(60, 50, 50);
+      color:white;
+      border-radius: 8px;
+      text-align: center;
+ }
+
+ .card-title1 h2{
+
+ }
+
+
+
+
+
+ .card2{
+    background-color: rgb(149, 133, 111);
+    border-radius: 5px;
+    padding:10px;
+    transition:.4s;
+    height:700px;
+    margin:10px;
+    padding:20px;
+   
+     
+}
+
+.card2:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+
+ .card2 img{
+    display: flex;
+    margin:0 auto;
+    width:100px;
+    height:100px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.card-title2 {
+     background-color: rgb(60, 50, 50);
+     color:white;
+     border-radius: 8px;
+     text-align: center;
+}
+
+.card-title2 h2{
+
+}
+
+
+
+
+
+
+
+.card3{
+    background-color: rgb(149, 133, 111);
+    border-radius: 5px;
+    padding:10px;
+    transition:.4s;
+    height:700px;
+    margin:10px;
+    padding:20px;
+   
+     
+}
+
+.card3:hover{
+    box-shadow: 0 4px 8px 5px black;
+}
+
+ .card3 img{
+    display: flex;
+    margin:0 auto;
+    width:100px;
+    height:100px;
+    border: 5px solid white;
+    border-radius: 50%;
+}
+
+.card-title3 {
+     background-color: rgb(60, 50, 50);
+     color:white;
+     border-radius: 8px;
+     text-align: center;
+}
+
+.card-title3 h2{
+
+}
+
+.horii{
+    border:none;
+    border-bottom:3px solid;
+    width:100%;
+    color:white;
+    margin:0;
+
+}
+
+
+.all-exprience::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+
+
+
+
+
+
+
+.card-decs3{
+
+}
+
+.animation-div{
+padding:20px;
+}
+
+.animation-div ul{
+list-style-type:none;
+text-transform: uppercase;
+}
+
+.animation-div li{
+margin:22px 10px;
+font-weight:bolder;
+color:white;
+position:relative;
+}
+
+.animation-div li::before{
+content:'';
+position:absolute;
+top:calc(100% + 4px);
+left:0;
+
+
+background-color: beige;
+width:100%;
+height:15px;
+border-radius: 100px;
+
+}
+
+
+.animation-div li::after{
+    content:'';
+    position:absolute;
+    top:calc(100% + 4px);
+    left:0px;
+    
+    background-color: tomato;
+    width:0%;
+    height:15px;
+    border-radius: 100px;
+    animation-duration: 3s;
+    animation-delay: 0.8s;
+    animation-timing-function: linear;
+    animation-fill-mode: forwards;
+    animation-iteration-count: 1;
+    
+    }
+
+    .animation-div li.html::after{
+        animation-name: html;
+        }
+        
+        @keyframes html{
+            to{
+                width:90%;
+            }
+        }
+
+
+        .animation-div li.css::after{
+            animation-name: css;
+            }
+            
+            @keyframes css{
+                to{
+                    width:80%;
+                }
+            }
+
+
+
+      .animation-div li.js::after{
+         animation-name: js;
+         }
+                
+         @keyframes js{
+        to{
+            width:80%;
+            }
+         }
+
+
+       .animation-div li.react::after{
+             animation-name: react;
+        }
+                    
+        @keyframes react{
+         to{
+            width:78%;
+             }
+         }
+
+
+         .animation-div li.bostrop::after{
+            animation-name: bostrop;
+       }
+                   
+       @keyframes bostrop{
+        to{
+           width:95%;
+            }
+        }
+
+
+        .animation-div li.phython::after{
+            animation-name: phython;
+       }
+                   
+       @keyframes phython{
+        to{
+           width:80%;
+            }
+        }
+
+
+        .animation-div li.jquary::after{
+            animation-name: jquary;
+       }
+                   
+       @keyframes jquary{
+        to{
+           width:70%;
+            }
+        }
+
+
+
+        .animation-div li.sadik::after{
+            animation-name: sadik;
+       }
+                   
+       @keyframes sadik{
+        to{
+           width:98%;
+            }
+        }
+
+
+    
+
+
+
+/*Exprience edned here*/
+
+
+
+
+
+
+
+/*contrack-section start here*/
+
+.contrack-section{
+ background-color: rgb(203, 69, 57);
+ margin:0;
+ 
+}
+
+
+.ach{
+    
+    
+    height:400px;
+}
+
+.ach-head{
+text-align: center;
+color:rgb(241, 234, 234);
+
+}
+
+hr{
+    border:dotted 3px solid white;
+    
+    width:60%;
+    margin:0 auto;
+   
+}
+
+.ach-decs{
+    color:white;
+}
+
+.ach::after{
+    content:'';
+    display: table;
+    clear:both;
+}
+
+
+
+
+
+.contrack{
+    
+    
+    height:500px;
+}
+
+.contrack-head{
+    color:white;
+    text-align: center;
+}
+
+.contrack-head hr{
+    border-style:dotted;
+    border:2px solid white;
+    border-bottom:none;
+
+}
+
+#name{
+    display: flex;
+    width:300px;
+    text-align: center;
+    margin:0 auto;
+    border-radius: 3px;
+}
+
+#big-input{
+    width: 300px;
+    height: 160px;
+    display: flex;
+    margin:0 auto;
+    font-size: 1rem;
+    font-weight: bolder;
+    resize: none;
+    
+
+}
+
+.contrack-button{
+    margin:10px 0;
+    text-align: center;
+   
+}
+
+.contrack-button #btn{
+     color:white;
+    font-size: 2rem;
+    background-color: rgb(68, 60, 60);
+    border-radius: 5px;
+    margin:10px;
+}
+
+.contrack-button #btn:hover{
+    background-color: rgb(112, 104, 104);
+}
+
+.contrack::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+
+.more-contrack{
+    height:400px;
+}
+
+h1{ text-align: center;
+color:white;}
+
+
+
+hr{
+    border:dotted 3px solid white;
+    
+    width:60%;
+    margin:0 auto;
+   
+}
+
+
+.sosial-media{
+    text-align: center;
+    padding:20px;
+    margin:100px 20px;
+    font: size 32px;
+    
+}
+
+.facebook{
+    font-size:32px;
+    border:none;
+    border-radius: 10px;
+    margin:10px;
+    color:#4267B2;
+}
+
+.youtube{
+    font-size:32px;
+    margin:10px;
+    border:none;
+    border-radius: 10px;
+    color:#FF0000;
+}
+
+.github{
+    font-size:32px;
+    margin:10px;
+    border:none;
+    border-radius: 10px;
+    color:#171515;
+}
+
+.linkdin{
+    font-size:32px;
+    margin:10px;
+    border:none;
+    border-radius: 10px;
+    color:#0072b1;
+}
+
+
+
+
+ .email{
+    font-size:32px;
+    margin:10px;
+    border:none;
+    border-radius: 10px;
+    color:#ea0a8e;
+    background-color: white;
+}
+
+#idd:hover{
+    background-color: tan;
+}
+
+
+.more-contrack::after{
+    content:'';
+    display: table;
+    clear: both;
+}
+
+
+
+.contrack-section::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+/*contrack-section edned here*/
+
+
+
+
+
+/*foooter start here*/
+.foooter{
+background-color: #171515;
+color:white;
+text-align: center;
+padding:20px;
+font-size: 0.8;
+flex-direction: row;
+}
+
+.foooter-menu{
+display: block;
+
+}
+
+.foooter-menu a{
+ 
+ text-decoration: none;
+ display: block;
+ padding: 10px;
+ color:white;
+ text-align: center;
+ 
+}
+
+.foooter-menu a:hover{
+    color: #77a8c2;
+    
+}
+
+.foooter-text{
+    display: block;
+}
+
+.foooter::after{
+    content: '';
+    display: table;
+    clear: both;
+}
+
+
+/*foooter  edned here*/
+
+
+
+
+
